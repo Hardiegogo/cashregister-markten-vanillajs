@@ -51,3 +51,16 @@ body{
 .cash-area{
     display: none;
 }
+
+@media only screen and (max-width:345px){
+    .App{
+        table{
+            tr{
+                
+                td,th{
+                    min-width: unset;
+                }
+            }
+        }
+    }    
+}

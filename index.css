@@ -57,4 +57,10 @@ body {
 .cash-area {
   display: none;
 }
+
+@media only screen and (max-width: 345px) {
+  .App table tr td, .App table tr th {
+    min-width: unset;
+  }
+}
 /*# sourceMappingURL=index.css.map */
