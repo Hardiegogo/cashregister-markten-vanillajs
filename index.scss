@@ -41,7 +41,7 @@ body{
             td,th{
                 border: 1px solid #04395E;
                 // padding: 0.3vw;
-                min-width: 20px;
+                min-width: 18px;
             }
         }
     }
@@ -55,12 +55,30 @@ body{
 @media only screen and (max-width:345px){
     .App{
         table{
+            font-size: small;
             tr{
                 
                 td,th{
-                    min-width: unset;
+                    padding: 1vw;
+                    
                 }
             }
         }
     }    
+}
+@media only screen and (max-width:325px) {
+    .App {
+        table {
+            font-size: smaller;
+
+            tr {
+
+                td,
+                th {
+                    
+                    min-width: unset;
+                }
+            }
+        }
+    }
 }

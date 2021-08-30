@@ -51,7 +51,7 @@ body {
 
 .App table tr td, .App table tr th {
   border: 1px solid #04395E;
-  min-width: 20px;
+  min-width: 18px;
 }
 
 .cash-area {
@@ -59,7 +59,20 @@ body {
 }
 
 @media only screen and (max-width: 345px) {
+  .App table {
+    font-size: small;
+  }
   .App table tr td, .App table tr th {
+    padding: 1vw;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .App table {
+    font-size: smaller;
+  }
+  .App table tr td,
+  .App table tr th {
     min-width: unset;
   }
 }
