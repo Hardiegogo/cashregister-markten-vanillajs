@@ -1,4 +1,60 @@
+body {
+  background-color: #031D44;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .App {
+  margin-top: 10vh;
   text-align: center;
+  background-color: #DAB785;
+  border-radius: 10px;
+  color: #04395E;
+  padding: 1rem;
+  width: 80%;
+  max-width: 360px;
+  font-size: larger;
+}
+
+.App input {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.App .btn-check, .App .btn-next {
+  padding: 0.5rem 1rem;
+  font-size: large;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #D5896F;
+  color: white;
+  cursor: pointer;
+}
+
+.App table {
+  margin: auto;
+}
+
+.App table tr td, .App table tr th {
+  border: 1px solid #04395E;
+  min-width: 20px;
+}
+
+.cash-area {
+  display: none;
 }
 /*# sourceMappingURL=index.css.map */

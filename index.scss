@@ -1,3 +1,53 @@
+body{
+    background-color: #031D44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .App{
+    margin-top: 10vh;
     text-align: center;
+    background-color: #DAB785;
+    border-radius: 10px;
+    color: #04395E;
+    padding: 1rem;
+    width: 80%;
+    max-width: 360px;
+    font-size: larger;
+    input{
+        padding: 0.5em 1em;
+        border-radius: 10px;
+        border:none;
+        margin-bottom: 1rem;
+    }
+
+    .btn-check,.btn-next{
+        padding: 0.5rem 1rem;
+        font-size: large;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: #D5896F;
+        color:white;
+        cursor: pointer;
+    }
+
+    table{
+        margin: auto;
+        
+        tr{
+            td,th{
+                border: 1px solid #04395E;
+                // padding: 0.3vw;
+                min-width: 20px;
+            }
+        }
+    }
+    
+}
+
+.cash-area{
+    display: none;
 }
