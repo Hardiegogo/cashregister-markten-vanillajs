@@ -8,29 +8,29 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div className="App">
+    <div class="App">
       <h1>Cash Register Manager</h1>
       <p>
         Enter the bill amount and cash given by the customer and know minimum
         number of notes to return.
       </p>
       <label for="bill-amount">Bill amount:</label>
-      <input type="text" id="bill-amount">
+      <input type="number" id="bill-amount"><br>
       <label for="cash-given">Cash given:</label>
-      <input type="text" id="cash-given">
-      <button className="btn-ch">Check</button>
-      
+      <input type="number" id="cash-given"><br>
+      <button class="btn-check">Check</button>
+      <h3 class="error"></h3>
       <h2>Return Change</h2>
       <table>
         <tr>
           <th>No. of notes</th>
-          <td className="no-of-notes"></td>
-          <td className="no-of-notes"></td>
-          <td className="no-of-notes"></td>
-          <td className="no-of-notes"></td>
-          <td className="no-of-notes"></td>
-          <td className="no-of-notes"></td>
-          <td className="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
+          <td class="no-of-notes"></td>
         </tr>
         <tr>
           <th>Notes</th>
@@ -44,5 +44,6 @@
         </tr>
       </table>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
