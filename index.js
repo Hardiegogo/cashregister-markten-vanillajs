@@ -19,7 +19,7 @@ function calculateExchanges(returnAmt){
 
 nextButton.addEventListener('click',()=>{
 
-  if(billAmount.value>=0){
+  if(billAmount.value>0){
     cashArea.style.display = "block";
     nextButton.style.display = "none";
   }
