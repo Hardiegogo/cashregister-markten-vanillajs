@@ -31,6 +31,7 @@ function btnClickHandler() {
   let billAmountNum=Number(billAmount.value)
   let cashGivenNum=Number(cashGiven.value)
   errMsg.style.display = "none";
+  returnMsg.style.display="none";
 
   function showError(msg) {
     errMsg.style.display = "block";
