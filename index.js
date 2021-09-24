@@ -37,7 +37,7 @@ function btnClickHandler() {
     errMsg.innerHTML = msg;
   }
   
-  if (billAmountNum > 0) {
+  if (billAmountNum > 0 && cashGivenNum>=0) {
       
     if (cashGivenNum>=billAmountNum) {
     
@@ -48,7 +48,7 @@ function btnClickHandler() {
       showError("Do you wanna wash plates?");
     }
   } else {
-    showError("invalid bill amount");
+    showError("Please enter correct values!");
   }
 }
 
