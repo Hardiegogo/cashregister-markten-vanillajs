@@ -9,6 +9,7 @@ var cashArea=document.querySelector('.cash-area');
 var notes = [2000, 500, 100, 20, 10, 5, 1];
 
 function calculateExchanges(returnAmt){
+  returnMsg.style.display="block";
   returnMsg.innerHTML = `Return amount : ${returnAmt}`;
     
     notes.forEach((note,index)=>{
